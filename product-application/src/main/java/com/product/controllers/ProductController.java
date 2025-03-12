@@ -55,7 +55,7 @@ public class ProductController {
         return "productshow";
     }
 
-    // Afficher le formulaire de modification du Product
+    /* Afficher le formulaire de modification du Product*/
     @PutMapping("/edit/{id}")
     public String edit(@PathVariable Integer id, Model model) {
         model.addAttribute("product", this.productService.getProductById(id));
