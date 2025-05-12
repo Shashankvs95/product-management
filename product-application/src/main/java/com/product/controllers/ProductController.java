@@ -35,12 +35,12 @@ public class ProductController {
      * @param model
      * @return
      */
-    @GetMapping("/")
+    /*@GetMapping("/")
     public String list(Model model) {
         model.addAttribute("products", this.productService.listAllProducts());
         System.out.println("Returning products:");
         return "products" + model.getClass();
-    }
+    }*/
 
     /**
      * View a specific product by its id.
